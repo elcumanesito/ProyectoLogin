@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;600&display=swap');
+
+*{
+    font-family: 'Noto Sans', sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor {
+    width: 1280px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+}
+
+.principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.arribita {
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.log {
+    background-color: #dc3545;
+    border: none;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.log > a {
+    text-decoration: none;
+    font-family: 'Noto Sans';
+    background-color: #dc3545;
+    color: #f8f9fa;
+}
+
+header {
+    background-color: #007bff;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+h1, h2, h4, p {
+    color: #343a40;
+}
+
+.formu {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.titulo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+    font-size: 18px;
+}
+
+.titulo > p {
+    margin-top: 15px;
+    font-size: 15px;
+
+}
+
+.titulo > a {
+    text-decoration: none;
+    color:  #2D9CDB;
+    font-size: 12px;
+    margin-top: 8px;
+    
+}
+
+.cardsect {
+    padding: 20px;
+    border-bottom: 1px solid #dee2e6;
+    
+    
+}
+
+.cardsect > p{
+    color: #828282;
+    font-size: 13px;
+}
+
+.cardsection {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.li {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.tam {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ced4da;
+    height: 25px;
+}
+
+.btnsave {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.out {
+    color: white;
+    text-decoration: none;
+}
+
+.complete{
+    
+    display: flex;
+    justify-content: space-between;  
+    color: #828282;
+    font-family:  'Noto Sans';
+    font-size: 14px;
+   
+}
+
+.pc {
+    padding-left: 50px;
+}
+
+label {
+    font-size: 14px;
+}
