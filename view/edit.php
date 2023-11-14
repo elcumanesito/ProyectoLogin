@@ -26,10 +26,14 @@ if (!isset($_SESSION["user_data"])){
          <p>Basic info, like your name and photo</p>
          <a href="/view/dashboard.php">< Back</a> 
     </div>
-    <form action="/handle_db/update.php" method="POST" class="formu">
+    <form action="/handle_db/update.php" method="POST" class="formu" enctype="multipart/form-data">
         <section class="cardsect">
             <h4>Profile</h4> 
             <p>Some info may be visible to other people</p>
+        </section>
+        <section class="cardsection">
+         <label for="imagen" class="li">Profile Image:</label>
+         <input type="file" name="imagen" class="tam1">
         </section>
         <section class="cardsection">
             <label for="" class="li">Name:</label>
@@ -37,11 +41,11 @@ if (!isset($_SESSION["user_data"])){
         </section>
         <section class="cardsection">
             <label for="" class="li">Phone:</label>
-            <input type="number" class="tam" name="telefono" value="<?= $_SESSION["user_data"]["tlf"]?>">
+            <input type="number" class="tam" name="tlf" value="<?= $_SESSION["user_data"]["tlf"]?>">
         </section>
         <section class="cardsection">
             <label for="" class="li">Biography:</label>
-            <input type="text" class="tam" name="biografia" value="<?= $_SESSION["user_data"]["bio"]?>">
+            <input type="text" class="tam" name="bio" value="<?= $_SESSION["user_data"]["bio"]?>">
         </section>
         <button class="btnsave" type="submit">Save</button>
     </form>

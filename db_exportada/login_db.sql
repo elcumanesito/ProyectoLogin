@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 17-10-2023 a las 05:27:58
+-- Tiempo de generación: 13-11-2023 a las 06:43:58
 -- Versión del servidor: 10.4.28-MariaDB
 -- Versión de PHP: 8.2.4
 
@@ -43,10 +43,7 @@ CREATE TABLE `users` (
 
 INSERT INTO `users` (`id`, `correo`, `contrasena`, `imagen`, `nombre`, `tlf`, `bio`) VALUES
 (1, 'admin@admin.com', '$2y$10$CIxEef4XcZoPKpDiCMPbpebhKl6qUpsGL60MeE9Zan28MgAGjZsPi', NULL, 'Holis', '', ''),
-(2, 'test@test.com', '$2y$10$95whssaYcucFkDBv8L18Su5OktyzUvp9DRwSootRpzO8IAfP9E2gW', NULL, 'Holis', NULL, NULL),
-(4, 'probando@gmail.com', '$2y$10$70S52Tb5b1pkqd8oSAXPV.tzyFH0ZzBXGdd4yNOIxml6eEVl6Yrh.', NULL, NULL, NULL, NULL),
-(5, 'daniel@gmail.com', '$2y$10$gPoLAiUCzXd7d2oziggs0.CNPQ1cuFlioW5DDPNbso7lZ2dKy5th.', NULL, 'Daniel', '', ''),
-(7, 'josefina@gmail.com', '$2y$10$LEbBQUGFcY0mpB5RfoaAGO/C0i586xUTxcPdSU8Y7Dn7iTcJ802fi', NULL, 'josefina', '', '');
+(9, 'test@test.com', '$2y$10$45shAE0WXBBFUd30.pPaQur4jex.yh0ZWebyBzrA2s9ALNHDSyHri', 0x2f75706c6f6164732f313639393835343135395f616e67656c64616e69656c2e706e67, 'Daniel Alias elcumanesito uwu ', '0424242424', 'But here is my number, so call me, maybe');
 
 --
 -- Índices para tablas volcadas
@@ -66,7 +63,7 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT de la tabla `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

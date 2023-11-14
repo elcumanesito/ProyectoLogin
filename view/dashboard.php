@@ -40,7 +40,7 @@ if (!isset($_SESSION["user_data"])){
         </li>
         <li class="lis">
             <h3>Photo:</h3>
-            <img src="/assets/foto.jpg" class="photo" alt="Profile Photo">
+            <img src="<?= $_SESSION["user_data"]["imagen"] ?>" class="photo" alt="Profile Photo">
         </li>
         <li class="lis">
             <h3>Name:</h3>

@@ -120,6 +120,14 @@ h1, h2, h4, p {
     height: 25px;
 }
 
+.tam1 {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ced4da;
+    height: 45px;
+}
+
 .btnsave {
     background-color: #007bff;
     color: white;
